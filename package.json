@@ -1,0 +1,14 @@
+{
+  "name": "@straw-hat/eslint-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "cleanup": "lerna clean -y",
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "lerna": "^3.20.2"
+  }
+}
