@@ -30,6 +30,6 @@ module.exports = {
   rules: {
     'react/destructuring-assignment': ['error', 'never'],
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-fragments': ['error', 'element'],
+    'react/jsx-fragments': ['error', 'syntax'],
   },
 };
